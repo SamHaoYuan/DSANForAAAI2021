@@ -18,7 +18,7 @@ This code is used to reproduce the main experiment of our paper. We will open so
 + preprocess_rr: for RETAILROCKET dataset to generate session.
 + Preprocess: generate train and test set(for RETAILROCKET dataset, you need run `preprocess_rr .py` first)
 + Metric: HR and MRR
-+ DualApaptiveTrain: the model of DN dataset
++ DualAdaptiveTrain: the model of DN dataset
 + DualAdaRR3: the model of RR dataset
 
 ## BestModel
