@@ -25,4 +25,4 @@ This code is used to reproduce the main experiment of our paper. We will open so
 This folder contains the model that we have trained. Loading this model could directly check results.
 
 ## Baselines
-This folder contains all the baselines we compared in the paper. For SKNN, STAN,STAMP,Bert4Rec,CoSAN and CoSAN we implement them by ourselves referring to the original paper and open source implementation. For GRU4Rec and SR-GNN, we use the author's source code. For FPMC, we use the open source implementation.
+This folder contains all the baselines we compared in the paper. For SKNN, STAN,STAMP,Bert4Rec and CoSAN we implement them by ourselves referring to the original paper and open source implementation. For GRU4Rec and SR-GNN, we use the author's source code. For FPMC, we use the open source implementation.
