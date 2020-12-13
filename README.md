@@ -1,6 +1,6 @@
 # Dual Sparse Attention Network For Session based Recommendation
 
-This code is used to reproduce the main experiment of our paper. We will open source code of baselines after cleaning the code.
+This code is used to reproduce the main experiment of our paper. 
 
 ## Requirements
 
