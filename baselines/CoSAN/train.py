@@ -51,14 +51,14 @@ config = {
     "session_num": 433649,  # dn:526136 rr:433649
     "item_num": 36969,  # dn:40841 rr:36969
     "session_length": 50,  # dn:70 rr:50
-    "embedding_dim": 10,
-    "alpha": 0.5,
-    "head": 1,
-    "self_attention_layers": 2,
+    "embedding_dim": 100,  # dn:100 rr:100
+    "alpha": 0.5,  # dn:0.5 rr:0.5
+    "head": 1,  # dn:1 rr:1
+    "self_attention_layers": 2,  # dn:2 rr:2
     "k": 10,  # dn:5 rr:10
     "dropout": 0.3,  # dn:0.25 rr:0.3
-    "lr": 1e-3,
-    "reg": 1e-4,
+    "lr": 1e-3,  # dn:1e-3 rr:1e-3
+    "reg": 1e-4,  # dn:1e-4 rr:1e-4
     "batch_size": 128,
     "epoch": 30,
     "use_cuda": True,

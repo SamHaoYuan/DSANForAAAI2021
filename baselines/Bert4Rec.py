@@ -665,15 +665,14 @@ def train(args):
 # dataset = SessionDataSet(train_file="../data/diginetica/train.txt", test_file="../data/diginetica/test.txt")
 dataset = SessionDataSet(train_file="../data/retailrocket/train.txt", test_file="../data/retailrocket/test.txt")
 
-hidden_sizes = [100]
-
-dropouts = [0.25]
-attention_dropouts = [0]
-lrs = [1e-3]
-session_lengths = [50]
-sa_layer_nums = [2]
+hidden_sizes = [100]  # rr:100 dn:100
+dropouts = [0.25]  # rr:0.3 dn:0.3
+attention_dropouts = [0]  # rr:0 dn:0
+lrs = [1e-3]  # rr:1e-3 dn:5e-4
+session_lengths = [50]  # rr:50 dn:50
+sa_layer_nums = [2]  # rr:4 dn:4
 patience = 5
-head_nums = [4]
+head_nums = [4]  # rr:2 dn:4
 amsgrads = [True]
 best_params = ""
 best_all_model = 0.0

@@ -617,10 +617,10 @@ if __name__ == '__main__':
     dataset = SessionDataSet(train_file="../data/retailrocket/train.txt", test_file="../data/retailrocket/test.txt")
 
     # original: hidden_size:100, lr:5e-3
-    hidden_sizes = [100]
-    dropouts = [0]
-    lrs = [5e-3]
-    session_lengths = [289]
+    hidden_sizes = [100]  # rr:100 dn:100
+    dropouts = [0]  # rr:0 dn:0
+    lrs = [5e-3]  # rr:3e-3 dn:3e-3
+    session_lengths = [289]  # rr:289 dn:71
     patience = 100
     best_params = ""
     best_all_model = 0.0

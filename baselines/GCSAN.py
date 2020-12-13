@@ -342,20 +342,20 @@ class Config(object):
     def __init__(self):
         self.dataset = "diginetica"
         # self.dataset = "retailrocket"
-        self.batchSize = 100  # original: 100
-        self.hiddenSize = 100  # original: 100
-        self.epoch = 6
-        self.lr = 1e-3  # original: 1e-3
-        self.lr_dc = 0.1  # original: 1e-1
-        self.lr_dc_step = 3  # original: 3
-        self.l2 = 1e-7  # original: 1e-5
+        self.batchSize = 100  # rr:100 dn:100
+        self.hiddenSize = 100  # rr:100 dn:100
+        self.epoch = 20
+        self.lr = 1e-3  # rr:2e-3 dn:2e-3
+        self.lr_dc = 0.1  # rr:0.1 dn:0.1
+        self.lr_dc_step = 3  # rr:3 dn:3
+        self.l2 = 1e-7  # rr:1e-7 dn:1e-7
         self.step = 1
         self.patience = 100
         self.nonhybrid = False
         self.validation = False
         self.valid_portion = 0.1
         self.sa_layer_num = 1
-        self.omg = 0.5  # paper best: 0.8
+        self.omg = 0.5  # rr:0.7 dn:0.5
 
 
 def main():

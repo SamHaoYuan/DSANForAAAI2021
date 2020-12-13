@@ -28,6 +28,8 @@ test_predict = test_data[2]
 model = SKNN(session_id=train_id, session=train_session, session_timestamp=train_timestamp, sample_size=0, k=500)
 # model = STAN(session_id=train_id, session=train_session, session_timestamp=train_timestamp,
 #              sample_size=0, k=500, factor1=True, l1=3.54, factor2=True, l2=20*24*3600, factor3=True, l3=3.54)
+# rr:k=500,l1=1.25,l2=80,l3=2.5
+# dn:k=500,l1=3.54,l2=20,l3=3.54
 
 testing_size = len(test_session)
 
