@@ -27,6 +27,6 @@ This folder contains the model that we have trained. Loading this model could di
 ## Baselines
 This folder contains all the baselines we compared in the paper. 
 
-For SKNN, STAN,STAMP,Bert4Rec ,GC-SAN and CoSAN we implement them by ourselves referring to the original paper and open source implementation. 
+For SKNN, STAN, STAMP, Bert4Rec, GC-SAN and CoSAN we implement them by ourselves referring to the original paper and open source implementation. 
 
 For [GRU4Rec](https://github.com/hidasib/GRU4Rec), [SR-GNN](https://github.com/CRIPAC-DIG/SR-GNN), we use the author's source code and for [FPMC](https://github.com/DeepGraphLearning/RecommenderSystems) we use the open source implementation.
